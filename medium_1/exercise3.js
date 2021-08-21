@@ -5,6 +5,7 @@
 function factors(number) {
   let divisor = number;
   let factors = [];
+  
   do {
     if (number % divisor === 0) {
       factors.push(number / divisor);
